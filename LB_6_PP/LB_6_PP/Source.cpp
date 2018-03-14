@@ -13,6 +13,7 @@ long long Facto(int arg)
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	cout << "¬ведите число дл€ которого нужно найти факториал -> ";
 	int a;
 	cin >> a;
